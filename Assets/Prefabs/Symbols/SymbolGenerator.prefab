@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2331538385889488095
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3864773402252268526}
+  - component: {fileID: 2914089831802551046}
+  m_Layer: 0
+  m_Name: SymbolGenerator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3864773402252268526
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2331538385889488095}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2914089831802551046
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2331538385889488095}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf161bd8dfb034c47925d6970cebd2de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  easySymbolList:
+  - {fileID: 460574281739511941, guid: e01f97838fa6e9349b4e7ecbec527f65, type: 3}
+  - {fileID: 2283010478521205876, guid: ebde51fcfd3505649a40391104799857, type: 3}
+  - {fileID: 3811288907980328966, guid: 285b68f50e98f134daad56aaacbc2232, type: 3}
+  - {fileID: 8785485055664856881, guid: 7af2bbac1fa8e7c47a3be5fa12dceed2, type: 3}
+  mediumSymbolList:
+  - {fileID: 2766911254159880711, guid: 84b4f9e4f47582043989ab9aaee1d82f, type: 3}
+  - {fileID: 740992145591390772, guid: 037cf36fbb7b81c4db8caf61fe2eaea8, type: 3}
+  - {fileID: 7548940431419729299, guid: 30f1d7fa3f4e2df4eb0eec5a3331fb2e, type: 3}
+  - {fileID: 6411115538606687983, guid: 9b7f837cc8ac6974780295658d46337a, type: 3}
+  - {fileID: 6126574939951064824, guid: 129b059b09865124eb7ae26be46f1631, type: 3}
+  - {fileID: 8724390560843404048, guid: 83157945ab933214194818797ac4b537, type: 3}
+  hardSymbolList: []
+  godMode: 0

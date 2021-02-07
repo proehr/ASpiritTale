@@ -1,0 +1,26 @@
+BroadcastSaturationIncrease + IncreaseSaturation:
+	BroadcastSaturationIncrease: Tells children to increment their materials' saturation by a certain increment
+	IncreaseSaturation: Increments the saturation of the prefab's material
+-> this was used to change the saturation of all prefabs of the scene, at the same time
+
+_________________________________________________________
+SaturationHandler: Super Class of the classes below 
+-> so that we only need one "Find" to get the Saturation changer, no matter what version is in use.
+e.g. "saturationHandler = GameObject.Find("Environment").GetComponent<SaturationHandler>();"
+
+
+ItemGroupSaturationChangeHandler:
+	Increases the saturation of item groups from 0 to 1 in one go (by replacing the Material without saturation, 
+	with one that is fully saturated), everytime an enemy dies a new item group gains color.
+	This works only in the Second Map, because all props share 1 Material + a makeshift solution 
+	for the last item group that contains multiple Mats.
+
+
+MultMatItemGroupSaturationChangeHandler:
+	Gets an Array of all the Materials used in the Scene.
+	For each Material, we store their old HSV values in a seperate Array, and then set their Saturation to 0.
+	Everytime an Enemy dies, we take 3 Materiels and set their current HSV values to their old ones (back to full color) 
+
+NoSaturationChange:
+	Does nothing.
+	Is only there, so that the later call of the IncreaseSaturation() doesn't create any errors.

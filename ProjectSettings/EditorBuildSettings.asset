@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/MainMenuScene.unity
+    guid: 6277e9ebaee55b8439b2485456470166
+  - enabled: 1
+    path: Assets/Scenes/GameLevels/JapanScene.unity
+    guid: d8ce1017ce14ed544acb282b6cb412d1
+  - enabled: 1
+    path: Assets/Scenes/GameLevels/SecondMapScene.unity
+    guid: 3ea101a02281dc34c87b9cddbc55ef88
+  - enabled: 1
+    path: Assets/Scenes/GameLevels/ThirdMapScene.unity
+    guid: 6b060ed340a1b0047a2db509d6d4d366
+  m_configObjects:
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 08c9f217772366140a418af6dcc8ebbc,
+      type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 6d500f09317c68044be41d7106200598,
+      type: 2}
