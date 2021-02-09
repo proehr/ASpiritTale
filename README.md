@@ -118,7 +118,7 @@ This Game has been distributed with Unity3d.
 
 ## Authors (sorted alphabetically)
 * **Bartholomäus Berresheim** - [Github](https://github.com/Silices)
-* **Juri Wiechmann** 
+* **Juri Wiechmann** - [Github](https://github.com/LuffyGM)
 * **Marie Lencer** - [Github](https://github.com/MarieLencer)
 * **Nima Azimihashemi** - [Github](https://github.com/nimaazha)
 * **Nuri Son**
